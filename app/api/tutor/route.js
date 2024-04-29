@@ -22,7 +22,7 @@ export async function POST(request){
                 content:messages + "Help students solve"
             }
         ],
-            model:"mixtral-8x7b-32768"    
+            model:"llama3-70b-8192"    
         })
 
         return NextResponse.json(response.choices[0]?.message?.content || "".text)

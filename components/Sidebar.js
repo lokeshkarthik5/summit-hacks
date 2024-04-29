@@ -46,12 +46,7 @@ const routes=[
     href:"/tutor",
     color:"text-red-500"
   },
-  {
-    label:"Research",
-    icon:BookOpen,
-    href:"/research",
-    color:"text-black-500"
-  }
+
 ]
 
 
