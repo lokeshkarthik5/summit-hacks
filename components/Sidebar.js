@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import logo from '@/public/epic-logo.png'
-import { LayoutDashboard, Settings, ImageIcon } from 'lucide-react'
+import { LayoutDashboard, Settings, ImageIcon, GraduationCap, Notebook, School, BookOpen } from 'lucide-react'
 
 
 const monstserrat = Montserrat({
@@ -29,11 +29,29 @@ const routes=[
   },
 
   {
-    label:"Settings",
-    icon:Settings,
-    href:"/settings",
-    color:"text-green-500"
+    label:"AutoGrade",
+    icon:GraduationCap,
+    href:"/autograde",
+    color:"text-blue-500"
   },
+  {
+    label:"Summarize",
+    icon:Notebook,
+    href:"/summarize",
+    color:"text-purple-500"
+  },
+  {
+    label:"Tutor",
+    icon:School,
+    href:"/tutor",
+    color:"text-red-500"
+  },
+  {
+    label:"Research",
+    icon:BookOpen,
+    href:"/research",
+    color:"text-black-500"
+  }
 ]
 
 
@@ -52,7 +70,7 @@ const Sidebar = () => {
           alt='logo'
         />
         </div>
-        <h1 className={cn("text-3xl font-bold",monstserrat.className)}>Foster</h1>
+        <h1 className={cn("text-3xl font-bold",monstserrat.className)}>Summit</h1>
       </Link>
       <div className='h-full space-y-5'>
         {routes.map((route)=>(

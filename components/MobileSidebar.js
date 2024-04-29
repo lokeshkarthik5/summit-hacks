@@ -1,6 +1,6 @@
 "use client"
 
-import  {Sheet,SheetContent,SheetTrigger}  from "@/components/ui/Sheet"
+import {Sheet,SheetContent,SheetTrigger}  from "@/components/ui/Sheet"
 import {Button} from "@/components/ui/Button"
 import Sidebar from "@/components/Sidebar"
 import { Menu } from "lucide-react"
