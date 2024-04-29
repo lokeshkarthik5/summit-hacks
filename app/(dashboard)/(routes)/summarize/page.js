@@ -19,7 +19,7 @@ const extra = Montserrat({
 })
 
 
-export default function GeminiPrompt() {
+export default function Summarize() {
   const [message, setMessage] = useState('');
   const [answer, setAnswer] = useState('');
  
