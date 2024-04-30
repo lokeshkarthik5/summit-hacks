@@ -54,7 +54,9 @@ const TutorPage = () =>{
                 <input type="text" placeholder="Enter your message" onChange={handleChange}></input>
                 <Button type="submit">Submit</Button>
             </form> 
-            <div>{answer}</div>
+            <div className="w-[900px] mt-10">
+              {answer}
+            </div>
         </div>
     )
 }
