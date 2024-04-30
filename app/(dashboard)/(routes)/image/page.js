@@ -52,7 +52,7 @@ const ImagePage = () =>{
             Submit
           </Button>
         </form>
-        {image}
+        
         {image && (
           <img src={image} height={400} width={400} alt="" />
         )

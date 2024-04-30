@@ -18,11 +18,11 @@ export default function Home() {
       <div className="relative mt-10 mb-4">
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
         <div className="relative z-10 p-4 text-white text-center">
-          <h2 className="text-2xl font-bold">Welcome to the Summit Hackathon</h2>
+          <h2 className="text-2xl font-bold">Welcome to the Summit</h2>
           <p className="text-lg">A place to learn, build, and grow your skills</p>
         </div>
       </div>
-      <Image src={logo} className="w-full" />
+      <Image src={logo} className="w-full" alt="Pic" />
 
       
     </main>
